@@ -6,32 +6,137 @@
   <title>TasteBudz | Home</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="statics/index.css" />
   <script defer src="script.js"></script>
-  <!-- Font Awesome for social icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
   <header class="navbar">
     <div class="logo">TasteBudz</div>
     <nav>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#specialities" class="nav-link">Our Specialities</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="login.html" class="nav-link">Login</a></li>
+        <li><a href="register.html" class="nav-link">Register</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home" class="hero">
-    <h1>Welcome to TasteBudz</h1>
-    <p>Serving joy in every bite 🍽️</p>
-    <div class="hero-buttons">
-      <a href="menu.html" class="cta-btn">View Menu</a>
-      <a href="register.html" class="cta-btn secondary-btn">Get Started</a>
-    </div>
-  </section>
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h1>Welcome to TasteBudz</h1>
+      <p>Serving joy in every bite 🍽️</p>
+      <div class="hero-buttons">
+        <a href="menu.html" class="cta-btn">View Menu</a>
+        <a href="register.html" class="cta-btn secondary-btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Specialities Section -->
+    <section id="specialities" class="section" data-aos="fade-up">
+      <h2 class="section-title">Our Specialities</h2>
+      <div class="specialities-grid">
+        <div class="speciality-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="hot-pick">🔥 Hot Pick</div>
+          <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Special Dish 1">
+          <h3>Truffle Pasta</h3>
+          <p>Creamy pasta with authentic Italian truffle oil and wild mushrooms.</p>
+        </div>
+        <div class="speciality-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="hot-pick">🔥 Hot Pick</div>
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Special Dish 2">
+          <h3>Margherita Pizza</h3>
+          <p>Wood-fired pizza with San Marzano tomatoes and fresh mozzarella.</p>
+        </div>
+        <div class="speciality-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="hot-pick">🔥 Hot Pick</div>
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Special Dish 3">
+          <h3>Chocolate Lava Cake</h3>
+          <p>Warm chocolate cake with a molten center, served with vanilla ice cream.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section" data-aos="fade-up">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial" data-aos="fade-right" data-aos-delay="100">
+          <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer 1">
+          <div class="testimonial-content">
+            <p>"The truffle pasta is to die for! Best I've had outside of Italy."</p>
+            <div class="customer-name">- Priya K.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+        <div class="testimonial" data-aos="fade-right" data-aos-delay="200">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer 2">
+          <div class="testimonial-content">
+            <p>"Great ambiance and even better food. The pizza crust is perfect!"</p>
+            <div class="customer-name">- Ramesh T.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+        <div class="testimonial" data-aos="fade-right" data-aos-delay="300">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer 3">
+          <div class="testimonial-content">
+            <p>"Desserts are amazing! The lava cake is my weekly treat now."</p>
+            <div class="customer-name">- Anjali M.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Hours Section -->
+    <section class="section hours-section" data-aos="fade-up">
+      <h2 class="section-title">Opening Hours</h2>
+      <div class="hours-card">
+        <div class="day" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-clock"></i>
+          <span>Monday - Thursday</span>
+          <span>11:00 AM - 10:00 PM</span>
+        </div>
+        <div class="day" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-clock"></i>
+          <span>Friday - Saturday</span>
+          <span>11:00 AM - 11:00 PM</span>
+        </div>
+        <div class="day" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-clock"></i>
+          <span>Sunday</span>
+          <span>10:00 AM - 10:00 PM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section newsletter-section" data-aos="fade-up">
+      <h2 class="section-title">Stay Updated</h2>
+      <p>Subscribe to our newsletter for special offers and updates!</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit" class="cta-btn">Subscribe</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <div class="footer-content">
@@ -61,5 +166,45 @@
       <p>&copy; 2025 TasteBudz | All Rights Reserved</p>
     </div>
   </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Loading animation
+    window.addEventListener('load', function() {
+      document.querySelector('.loader').style.display = 'none';
+    });
+
+    // Nav highlighting
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        
+        if (pageYOffset >= (sectionTop - 300)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
