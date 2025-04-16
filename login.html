@@ -140,12 +140,12 @@
       }
     });
 
-    // Form submission
+    // Handle login form submit
     const loginForm = document.querySelector('.login-form');
     loginForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      // Add your login logic here
-      alert('Login functionality will be implemented with backend integration');
+      // 🚀 Redirect to dashboard.html directly without alert or validation
+      window.location.href = 'dashboard.html';
     });
   </script>
 </body>
