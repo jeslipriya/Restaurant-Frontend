@@ -449,38 +449,6 @@ footer {
   margin-top: 5px;
 }
 
-/* Opening Hours Section */
-.hours-section {
-  background-color: var(--secondary-color);
-  color: white;
-}
-
-.hours-card {
-  max-width: 600px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 30px;
-  border-radius: 15px;
-}
-
-.day {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.day:last-child {
-  border-bottom: none;
-}
-
-.day i {
-  font-size: 1.2rem;
-  color: var(--primary-color);
-}
-
 /* Newsletter Section */
 .newsletter-section {
   background-color: #f9f9f9;
