@@ -37,7 +37,7 @@ Welcome to **TasteBudz**, a stylish and responsive restaurant dashboard web app 
 
 ## 📸 Screenshot
 
-> (You can add a screenshot of the dashboard here for visual preview)
+> ![dashboard screenshot](image.png)
 
 ## ✨ Future Scope
 
