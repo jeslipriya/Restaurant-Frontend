@@ -92,10 +92,20 @@ This project was developed strictly for **practice and learning purposes**. My m
 
 ## 🚀 How to Run the Project
 
-1. Clone this repository.
-2. Navigate to the `TasteBudz` directory.
-3. Open `index.html` (or any page) in your browser.
-4. Enjoy exploring the interface!
+1. **Clone the repository:**
+```bash
+git clone https://github.com/jeslipriya/Restaurant-Frontend.git
+```
+
+2. **Navigate to the project directory:**
+```bash
+cd Restaurant-Frontend
+```
+
+5. **Open the application in your browser:**
+```
+http://localhost:5000
+```
 
 ---
 
