@@ -108,7 +108,7 @@ Designed and developed by **Jesli**
 
 ## 📸 Preview
 
-![Dashboard Preview](images/dashboard-1.png)
+![Dashboard Preview](images/landing-page-1.png)
 
 ---
 
