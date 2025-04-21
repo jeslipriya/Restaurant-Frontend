@@ -37,7 +37,7 @@ This project does **not** include any backend logic or database integration. It�
             │ all css files 
         ├── images/ 
             │ screenshot of the website
-        ├── README.md → 
+        ├── README.md → README file
 ```
 
 ---
