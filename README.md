@@ -23,32 +23,32 @@ This project does **not** include any backend logic or database integration. It�
 ---
 
 ## 📁 Project Structure
-
-TasteBudz/ 
-│ ├── index.html → Home page 
-├── login.html → Login page 
-├── register.html → Registration page 
-├── about.html → About TasteBudz 
-├── contact.html → Contact us 
-├── privacy.html → Privacy policy 
-├── terms.html → Terms & conditions 
-│ ├── dashboard.html → User dashboard (frontend mock) 
-├── profile.html → Profile page 
-├── settings.html → Settings page 
-├── diet-plan.html → Daily diet plan (static) 
-├── chatbot.html → Gemini AI chatbot UI 
-├── mood-tracker.html → Mood tracker (charts & visuals) 
-├── favorites.html → Favorite dishes page 
-├── recipes.html → Saved recipes 
-├── meal-plan.html → Personalized meal plan (mock) 
-├── subscription.html → Subscription info 
-├── feedback.html → Feedback form │ 
-├── assets/ 
-│ ├── css/ 
-│ ├── js/ 
-│ └── images/ 
-│ └── README.md → You’re reading it 😎
-
+`
+    TasteBudz/ 
+    │ ├── index.html → Home page 
+    ├── login.html → Login page 
+    ├── register.html → Registration page 
+    ├── about.html → About TasteBudz 
+    ├── contact.html → Contact us 
+    ├── privacy.html → Privacy policy 
+    ├── terms.html → Terms & conditions 
+    │ ├── dashboard.html → User dashboard (frontend mock) 
+    ├── profile.html → Profile page 
+    ├── settings.html → Settings page 
+    ├── diet-plan.html → Daily diet plan (static) 
+    ├── chatbot.html → Gemini AI chatbot UI 
+    ├── mood-tracker.html → Mood tracker (charts & visuals) 
+    ├── favorites.html → Favorite dishes page 
+    ├── recipes.html → Saved recipes 
+    ├── meal-plan.html → Personalized meal plan (mock) 
+    ├── subscription.html → Subscription info 
+    ├── feedback.html → Feedback form │ 
+    ├── assets/ 
+        │ ├── css/ 
+    │ ├── js/ 
+    │ └── images/ 
+    │ └── README.md → You’re reading it 😎
+`
 
 ---
 
@@ -92,9 +92,9 @@ This project was developed strictly for **practice and learning purposes**. My m
 
 ## 🚀 How to Run the Project
 
-1. Clone this repository or download the project files.
+1. Clone this repository.
 2. Navigate to the `TasteBudz` directory.
-3. Open `dashboard.html` (or any page) in your browser.
+3. Open `index.html` (or any page) in your browser.
 4. Enjoy exploring the interface!
 
 ---
