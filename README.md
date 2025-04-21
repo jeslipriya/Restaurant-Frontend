@@ -23,7 +23,7 @@ This project does **not** include any backend logic or database integration. It�
 ---
 
 ## 📁 Project Structure
-`
+```
     TasteBudz/ 
     │ ├── index.html → Home page 
     ├── login.html → Login page 
@@ -48,7 +48,7 @@ This project does **not** include any backend logic or database integration. It�
     │ ├── js/ 
     │ └── images/ 
     │ └── README.md → You’re reading it 😎
-`
+```
 
 ---
 
