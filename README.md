@@ -1,55 +1,115 @@
-# 🍽️ TasteBudz - Frontend Dashboard UI
+# TasteBudz 🍽️  
+*A responsive and animated frontend-only food website designed by Jesli*
 
-Welcome to **TasteBudz**, a stylish and responsive restaurant dashboard web app made using HTML, CSS, and a sprinkle of JavaScript magic ✨. This is a static frontend project designed to mimic a premium user dashboard experience.
+---
 
-## 🔥 Features
+## 🔥 About the Project
 
-- 🧭 Sidebar navigation with icons and active state
-- 🔍 Search bar and notification/cart badges
-- 🙋‍♀️ Personalized welcome banner (Hey Jesli!)
-- ⚡ Quick Actions section with icons and hover effects
-- 🧾 Recent Orders with reorder option
-- 🧠 Smart Recommendations with food tags (Popular, New, Healthy)
-- 🎨 Smooth scroll animations using AOS library
-- 🍰 Responsive layout (mobile-ready)
+**TasteBudz** is a purely frontend-based restaurant website created as part of my learning journey in frontend development. The goal of this project is to improve my skills in building responsive layouts, applying creative animations, and enhancing user interaction through smooth transitions — all using HTML, CSS, and JavaScript.
 
-## 🛠️ Tech Stack
+This project does **not** include any backend logic or database integration. It’s focused solely on user interface and experience design.
+
+---
+
+## 💡 Key Features
+
+- Fully **responsive design** for mobile, tablet, and desktop
+- Clean and modern **UI/UX** approach
+- Smooth **page transitions** and **custom animations**
+- Reusable UI components across pages
+- Organized and scalable **folder structure**
+- Interactive elements like hover effects, modals, forms, etc.
+
+---
+
+## 📁 Project Structure
+
+TasteBudz/ 
+│ ├── index.html → Home page 
+├── login.html → Login page 
+├── register.html → Registration page 
+├── about.html → About TasteBudz 
+├── contact.html → Contact us 
+├── privacy.html → Privacy policy 
+├── terms.html → Terms & conditions 
+│ ├── dashboard.html → User dashboard (frontend mock) 
+├── profile.html → Profile page 
+├── settings.html → Settings page 
+├── diet-plan.html → Daily diet plan (static) 
+├── chatbot.html → Gemini AI chatbot UI 
+├── mood-tracker.html → Mood tracker (charts & visuals) 
+├── favorites.html → Favorite dishes page 
+├── recipes.html → Saved recipes 
+├── meal-plan.html → Personalized meal plan (mock) 
+├── subscription.html → Subscription info 
+├── feedback.html → Feedback form │ 
+├── assets/ 
+│ ├── css/ 
+│ ├── js/ 
+│ └── images/ 
+│ └── README.md → You’re reading it 😎
+
+
+---
+
+## 🚫 What’s Not Included
+
+- ❌ No backend logic or database
+- ❌ No API integrations
+- ❌ No real authentication or dynamic data
+- ❌ Not deployed
+
+---
+
+## 🎯 Purpose
+
+This project was developed strictly for **practice and learning purposes**. My main objectives were to:
+
+- Learn how to structure a scalable multi-page frontend project
+- Enhance my understanding of layout design using Flexbox & Grid
+- Experiment with creative animations and interactive transitions
+- Build a visually pleasing project that works well across all devices
+
+---
+
+## 🛠️ Technologies Used
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
-- **AOS** for animation on scroll
-- **Font Awesome** for icons
-- **Google Fonts** for typography
+- **JavaScript (ES6)**
+- **Responsive Design (Flexbox & Grid)**
+- **Custom Animations & Transitions**
 
-
-## 🚀 How to Run
-
-1. Clone this repo or just download the files.
-2. Open `dashboard.html` in your browser.
-3. Boom 💥 You're in the dashboard world of TasteBudz.
+---
 
 ## 🌐 CDN Libraries Used
 
 - [Font Awesome](https://cdnjs.com/libraries/font-awesome)
 - [Google Fonts](https://fonts.google.com/)
-- [AOS Animation](https://michalsnik.github.io/aos/)
-
-## 📸 Screenshot
-
-> ![dashboard screenshot](image.png)
-
-## ✨ Future Scope
-
-- 🔐 Add login/signup pages
-- 🛒 Cart functionality with JS
-- 🍕 Connect to backend (Flask, Django, etc.)
-- 💬 Add real-time chatbot
-
-## 🙌 Acknowledgements
-
-Designed with love by [Jesli 💛] – powered by food cravings and frontend fun!
+- [AOS (Animate on Scroll)](https://michalsnik.github.io/aos/)
 
 ---
 
-**Made with 🍔, 🎨 & 💻 by Jesli + Jarvis**
+## 🚀 How to Run the Project
+
+1. Clone this repository or download the project files.
+2. Navigate to the `TasteBudz` directory.
+3. Open `dashboard.html` (or any page) in your browser.
+4. Enjoy exploring the interface!
+
+---
+
+## 🙋‍♀️ Author
+
+Designed and developed by **Jesli**  
+*Frontend developer in the making — learning, building, and improving every day.*
+
+---
+
+## 📸 Preview
+
+![Dashboard Preview](image.png)
+
+---
+
+> ⚠️ *Note: This project is not deployed and does not contain any functional backend logic. It is for design and UI/UX demonstration purposes only.*
