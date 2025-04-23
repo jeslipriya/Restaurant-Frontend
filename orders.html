@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteBudz | My Orders</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="statics/orders.css">
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">TasteBudz</div>
+      <div class="user-profile">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User Profile">
+        <div class="user-info">
+          <h4>Jesli Priya</h4>
+          <p>Premium Member</p>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a href="dashboard.html">
+            <i class="fas fa-home"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="menu.html">
+            <i class="fas fa-utensils"></i>
+            <span>Menu</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="orders.html">
+            <i class="fas fa-clipboard-list"></i>
+            <span>My Orders</span>
+            <span class="badge">3</span>
+          </a>
+        </li>
+        <li>
+          <a href="favorites.html">
+            <i class="fas fa-heart"></i>
+            <span>Favorites</span>
+          </a>
+        </li>
+        <li>
+          <a href="reservations.html">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Reservations</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Sidebar Footer -->
+    <div class="sidebar-footer">
+      <a href="index.html" class="logout-btn">
+        <i class="fas fa-sign-out-alt"></i>
+        <span>Logout</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Top Navigation -->
+    <header class="top-nav">
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search for dishes, restaurants...">
+      </div>
+      <div class="nav-icons">
+        <div class="notification">
+          <i class="fas fa-bell"></i>
+          <span class="badge">5</span>
+        </div>
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="badge">2</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Orders Content -->
+    <div class="orders-content">
+      <!-- Orders Header -->
+      <section class="orders-header" data-aos="fade-up">
+        <h1>My Orders</h1>
+        <div class="order-filter">
+          <button class="filter-btn active">All</button>
+          <button class="filter-btn">Pending</button>
+          <button class="filter-btn">Delivered</button>
+          <button class="filter-btn">Cancelled</button>
+        </div>
+      </section>
+
+      <!-- Orders Timeline -->
+      <section class="orders-timeline">
+        <!-- Current Order -->
+        <div class="timeline-item current" data-aos="fade-right">
+          <div class="timeline-badge">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Order #TBZ-2023-4567</h3>
+              <span class="order-status preparing">Preparing</span>
+            </div>
+            <div class="timeline-body">
+              <div class="order-details">
+                <div class="order-items">
+                  <div class="order-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Pizza">
+                    <div class="item-info">
+                      <h4>Margherita Pizza</h4>
+                      <p>Large | Extra Cheese</p>
+                      <span class="item-price">₹320</span>
+                    </div>
+                    <span class="item-quantity">x1</span>
+                  </div>
+                  <div class="order-item">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Pasta">
+                    <div class="item-info">
+                      <h4>Pasta Alfredo</h4>
+                      <p>Regular | Mushroom</p>
+                      <span class="item-price">₹280</span>
+                    </div>
+                    <span class="item-quantity">x2</span>
+                  </div>
+                </div>
+                <div class="order-summary">
+                  <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>₹880</span>
+                  </div>
+                  <div class="summary-row">
+                    <span>Delivery Fee</span>
+                    <span>₹40</span>
+                  </div>
+                  <div class="summary-row total">
+                    <span>Total</span>
+                    <span>₹920</span>
+                  </div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <button class="track-btn">
+                  <i class="fas fa-map-marker-alt"></i> Track Order
+                </button>
+                <button class="cancel-btn">
+                  <i class="fas fa-times"></i> Cancel Order
+                </button>
+              </div>
+            </div>
+            <div class="timeline-footer">
+              <span class="order-date"><i class="far fa-clock"></i> Ordered: Today at 2:30 PM</span>
+              <span class="order-eta"><i class="fas fa-biking"></i> ETA: 45 mins</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Past Orders -->
+        <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="timeline-badge">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Order #TBZ-2023-4566</h3>
+              <span class="order-status delivered">Delivered</span>
+            </div>
+            <div class="timeline-body">
+              <div class="order-items">
+                <div class="order-item">
+                  <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Burger">
+                  <div class="item-info">
+                    <h4>Cheeseburger</h4>
+                    <p>With Fries | Large</p>
+                    <span class="item-price">₹250</span>
+                  </div>
+                  <span class="item-quantity">x1</span>
+                </div>
+              </div>
+              <div class="order-actions">
+                <button class="reorder-btn">
+                  <i class="fas fa-redo"></i> Reorder
+                </button>
+                <button class="rate-btn">
+                  <i class="far fa-star"></i> Rate Order
+                </button>
+              </div>
+            </div>
+            <div class="timeline-footer">
+              <span class="order-date"><i class="far fa-clock"></i> Ordered: Yesterday at 7:15 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+          <div class="timeline-badge">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Order #TBZ-2023-4565</h3>
+              <span class="order-status cancelled">Cancelled</span>
+            </div>
+            <div class="timeline-body">
+              <div class="order-items">
+                <div class="order-item">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Salad">
+                  <div class="item-info">
+                    <h4>Caesar Salad</h4>
+                    <p>With Chicken | Large</p>
+                    <span class="item-price">₹350</span>
+                  </div>
+                  <span class="item-quantity">x1</span>
+                </div>
+              </div>
+              <div class="order-actions">
+                <button class="reorder-btn">
+                  <i class="fas fa-redo"></i> Reorder
+                </button>
+              </div>
+            </div>
+            <div class="timeline-footer">
+              <span class="order-date"><i class="far fa-clock"></i> Ordered: 3 days ago at 12:45 PM</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Loading animation
+    window.addEventListener('load', function() {
+      document.querySelector('.loader').style.display = 'none';
+    });
+
+    // Filter buttons
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Order item animation
+    const orderItems = document.querySelectorAll('.order-item');
+    orderItems.forEach(item => {
+      item.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateX(5px)';
+      });
+      item.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateX(0)';
+      });
+    });
+
+    // Active nav item
+    const navItems = document.querySelectorAll('.sidebar-nav li');
+    navItems.forEach(item => {
+      item.addEventListener('click', function() {
+        navItems.forEach(i => i.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
