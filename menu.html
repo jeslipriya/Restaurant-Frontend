@@ -451,27 +451,26 @@
     });
 
     document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const targetId = btn.getAttribute('data-target');
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      const elementTop = targetElement.getBoundingClientRect().top;
-      const elementHeight = targetElement.offsetHeight;
-      const windowHeight = window.innerHeight;
-      const scrollY = window.scrollY;
+      btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-target');
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        const elementTop = targetElement.getBoundingClientRect().top;
+        const elementHeight = targetElement.offsetHeight;
+        const windowHeight = window.innerHeight;
+        const scrollY = window.scrollY;
 
-      // Calculate center position
-      const centerScroll = elementTop + scrollY - (windowHeight / 2) + (elementHeight / 2);
+        // Calculate center position
+          const centerScroll = elementTop + scrollY - (windowHeight / 2) + (elementHeight / 2);
 
-      window.scrollTo({
-        top: centerScroll,
-        behavior: 'smooth'
-      });
-    }
+        window.scrollTo({
+          top: centerScroll,
+          behavior: 'smooth'
+        })  ;
+    } 
   });
 });
 
-
-  </script>
+</script>
 </body>
 </html>
