@@ -115,16 +115,16 @@
         <h1>My Orders</h1>
         <div class="order-filter">
           <button class="filter-btn active">All</button>
-          <button class="filter-btn">Pending</button>
-          <button class="filter-btn">Delivered</button>
-          <button class="filter-btn">Cancelled</button>
+          <button class="filter-btn" data-target="pending">Pending</button>
+          <button class="filter-btn" data-target="delivered">Delivered</button>
+          <button class="filter-btn" data-target="cancelled">Cancelled</button>
         </div>
       </section>
 
       <!-- Orders Timeline -->
       <section class="orders-timeline">
         <!-- Current Order -->
-        <div class="timeline-item current" data-aos="fade-right">
+        <div class="timeline-item current" id="pending" data-aos="fade-right">
           <div class="timeline-badge">
             <i class="fas fa-clock"></i>
           </div>
@@ -187,7 +187,7 @@
         </div>
 
         <!-- Past Orders -->
-        <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+        <div class="timeline-item" id="delivered" data-aos="fade-right" data-aos-delay="100">
           <div class="timeline-badge">
             <i class="fas fa-check"></i>
           </div>
@@ -223,7 +223,7 @@
           </div>
         </div>
 
-        <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+        <div class="timeline-item" id="cancelled" data-aos="fade-right" data-aos-delay="200">
           <div class="timeline-badge">
             <i class="fas fa-times"></i>
           </div>
@@ -302,6 +302,28 @@
         this.classList.add('active');
       });
     });
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const targetId = btn.getAttribute('data-target');
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const elementTop = targetElement.getBoundingClientRect().top;
+      const elementHeight = targetElement.offsetHeight;
+      const windowHeight = window.innerHeight;
+      const scrollY = window.scrollY;
+
+      // Calculate center position
+      const centerScroll = elementTop + scrollY - (windowHeight / 2) + (elementHeight / 2);
+
+      window.scrollTo({
+        top: centerScroll,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
   </script>
 </body>
 </html>
