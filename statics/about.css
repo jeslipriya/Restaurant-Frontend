@@ -543,6 +543,7 @@
     display: block;
     color: var(--text-light);
     transition: var(--transition);
+    text-decoration: none;
   }
   
   .footer-section a:hover {
