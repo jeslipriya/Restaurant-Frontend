@@ -25,14 +25,15 @@ This project does **not** include any backend logic or database integration. It�
 ## 📁 Project Structure
 ```
     TasteBudz/ 
-    │   ├── index.html → Home page 
-        ├── login.html → Login page 
-        ├── register.html → Registration page 
-        ├── about.html → About TasteBudz  
-        ├── dashboard.html → User dashboard (frontend mock) 
-        ├── profile.html → Profile page 
-        ├── settings.html → Settings page  
-        ├── favorites.html → Favorite dishes page
+        ├── index.html → Home page
+        ├── templates/ 
+            ├── login.html → Login page 
+            ├── register.html → Registration page 
+            ├── about.html → About TasteBudz  
+            ├── dashboard.html → User dashboard (frontend mock) 
+            ├── profile.html → Profile page 
+            ├── settings.html → Settings page  
+            ├── favorites.html → Favorite dishes page
         ├── statics/ 
             │ all css files 
         ├── images/ 
