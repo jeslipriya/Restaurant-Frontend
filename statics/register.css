@@ -376,7 +376,9 @@
     margin-bottom: 10px;
     display: block;
     color: var(--text-light);
+    text-decoration: none;
     transition: color 0.3s ease;
+
   }
   
   .footer-section a:hover {
