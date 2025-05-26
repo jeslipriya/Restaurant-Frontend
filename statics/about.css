@@ -88,6 +88,7 @@
     font-weight: 500;
     transition: var(--transition);
     position: relative;
+    text-decoration: none;
   }
   
   .nav-links a:hover {
