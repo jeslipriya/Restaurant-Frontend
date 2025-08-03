@@ -1,9 +1,9 @@
-# TasteBudz 🍽️  
+# TasteBudz 
 *A responsive and animated frontend-only food website designed by Jesli*
 
 ---
 
-## 🔥 About the Project
+## About the Project
 
 **TasteBudz** is a purely frontend-based restaurant website created as part of my learning journey in frontend development. The goal of this project is to improve my skills in building responsive layouts, applying creative animations, and enhancing user interaction through smooth transitions — all using HTML, CSS, and JavaScript.
 
@@ -11,7 +11,7 @@ This project does **not** include any backend logic or database integration. It�
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 - Fully **responsive design** for mobile, tablet, and desktop
 - Clean and modern **UI/UX** approach
@@ -22,7 +22,7 @@ This project does **not** include any backend logic or database integration. It�
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
     TasteBudz/ 
         ├── index.html → Home page
@@ -43,16 +43,16 @@ This project does **not** include any backend logic or database integration. It�
 
 ---
 
-## 🚫 What’s Not Included
+## What’s Not Included
 
-- ❌ No backend logic or database
-- ❌ No API integrations
-- ❌ No real authentication or dynamic data
-- ❌ Not deployed
+- No backend logic or database
+- No API integrations
+- No real authentication or dynamic data
+- Not deployed
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project was developed strictly for **practice and learning purposes**. My main objectives were to:
 
@@ -63,7 +63,7 @@ This project was developed strictly for **practice and learning purposes**. My m
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -73,7 +73,7 @@ This project was developed strictly for **practice and learning purposes**. My m
 
 ---
 
-## 🌐 CDN Libraries Used
+## CDN Libraries Used
 
 - [Font Awesome](https://cdnjs.com/libraries/font-awesome)
 - [Google Fonts](https://fonts.google.com/)
@@ -81,7 +81,7 @@ This project was developed strictly for **practice and learning purposes**. My m
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Clone the repository:**
 ```bash
@@ -100,14 +100,14 @@ http://localhost:5000
 
 ---
 
-## 🙋‍♀️ Author
+## Author
 
 Designed and developed by **Jesli**  
 *Frontend developer in the making — learning, building, and improving every day.*
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![Dashboard Preview](images/landing-page-1.png)
 
