@@ -5,7 +5,7 @@
 
 ## About the Project
 
-**TasteBudz** is a purely frontend-based restaurant website created as part of my learning journey in frontend development. The goal of this project is to improve my skills in building responsive layouts, applying creative animations, and enhancing user interaction through smooth transitions — all using HTML, CSS, and JavaScript.
+**TasteBudz** is a purely frontend-based restaurant website created as part of my learning journey in frontend development. The goal of this project is to improve my skills in building responsive layouts, applying creative animations, and enhancing user interaction through smooth transitions - all using HTML, CSS, and JavaScript.
 
 This project does **not** include any backend logic or database integration. It’s focused solely on user interface and experience design.
 
@@ -103,7 +103,7 @@ http://localhost:5000
 ## Author
 
 Designed and developed by **Jesli**  
-*Frontend developer in the making — learning, building, and improving every day.*
+*Frontend developer in the making - learning, building, and improving every day.*
 
 ---
 
