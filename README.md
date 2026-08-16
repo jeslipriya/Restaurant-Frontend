@@ -113,4 +113,4 @@ Designed and developed by **Jesli**
 
 ---
 
-> ⚠️ *Note: This project is not deployed and does not contain any functional backend logic. It is for design and UI/UX demonstration purposes only.*
+> ⚠️ *Note: This project does not contain any functional backend logic. It is for design and UI/UX demonstration purposes only.*
